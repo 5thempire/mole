@@ -1,0 +1,8 @@
+AuthorizedKeysFile	.ssh/authorized_keys
+Subsystem	sftp	/usr/lib/ssh/sftp-server
+
+PasswordAuthentication no
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+AllowTcpForwarding yes
+

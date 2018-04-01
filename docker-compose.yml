@@ -1,0 +1,5 @@
+sshd:
+        build: .
+        dockerfile: Dockerfile
+        ports:
+                - "9000:22"
